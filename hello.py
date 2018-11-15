@@ -15,22 +15,27 @@ print(sentence)
 
 # 4. Day of the Week
 day =int(input('Day (0-6)? '))
-if day == 0:
-   print("Sunday") 
-elif day == 1:
-   print("Monday") 
-elif day == 2:
-   print("Tuesday")
-elif day == 3:        
-   print("Wednesday") 
-elif day == 4:    
-    print("Thursday")
-elif day == 5: 
-    print("Friday")
-elif day == 6: 
-    print("Saturday")
-else:
-    print("not avalid number")
+while(day!=-1):
+    day =int(input('Day (0-6)? '))
+    if(day>6||day<-1):
+     print("not valid")
+    elif day == 0:
+       print("Sunday") 
+    elif day == 1:
+       print("Monday") 
+    elif day == 2:
+       print("Tuesday")
+    elif day == 3:        
+       print("Wednesday") 
+    elif day == 4:    
+        print("Thursday")
+    elif day == 5: 
+        print("Friday")
+    elif day == 6: 
+        print("Saturday")
+    else:
+        print("not avalid number")
+print("not a day")        
 
 # 5. Work or Sleep In?
 
@@ -40,7 +45,7 @@ if day <= 4 :
 elif day == 5 or 6:
    print("Sleep")   
 
-6. Celsius to Fahrenheit
+# 6. Celsius to Fahrenheit
 temp = int(input("Temperature in C ?" ))
 Fahrenheittemp = (temp * 9/5)+32
 print(Fahrenheittemp)
