@@ -65,9 +65,9 @@
 #     l2.append(sum)  
 # print(l2)    
 
-# # 10. Matrix Addition II
-# l1 =[3,1,4,5]
-# l2 =[2,1,2,4]
+# 10. Matrix Addition II
+# l1 =[[3,1],[4,5]]
+# l2 =[[2,1],[2,4]]
 # l3=[]
 # size=len(l1)
 # for i in range(0,size):
@@ -75,6 +75,8 @@
 #   sum+=l1[i]+l2[i]
 #   l3.append(sum)
 # print(l3) 
+
+
 
 
 

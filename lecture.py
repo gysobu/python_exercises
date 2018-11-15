@@ -22,17 +22,75 @@
 # for name in president:
 #   print(president.index(name))
 #   print("pop:"president.pop())
-l1 = [1,5,3,6,7]
-l2 =[3,6,9,10,2]
-l3=[]
-for var1 in l1:
-    sum=0
-    for var2 in l2:
-        var=var1*var2
-        sum+=var
-    l3.append(sum)
-    
-print(l3)        
+# 
+
+
+# def sampleFunction():
+#     print("Hello World")
+# sampleFunction()    
+
+# def f(x):
+#     return 2*x+1
+# for x in range(-3,5):
+#     print("{0}".format(f(x)))
+#     print("f({x})={y}".format(x=x,y=f(x)))  
+
+# list1 =[1,2,3]
+# list2 =list1.copy()
+# print(list1)
+# print(list2) 
+# def f(x):
+#   return 2 * x + 1
+# def g(x):
+#   return x + 1
+# import matplotlib
+# matplotlib.use("Agg")
+# from matplotlib import pyplot
+# f_output = []
+# g_output = []
+# x_list = list(range(-3, 5))
+# for x in x_list:
+#   f_output.append(f(x))
+#   g_output.append(g(x))
+# pyplot.plot(x_list, f_output, x_list, g_output)
+# pyplot.savefig('myplot.png')
+# pyplot.close() 
+
+
+# from turtle import *
+# forward(100)
+# right(90)
+# forward(100)
+# right(90)
+# forward(100)
+# right(90)
+# forward(100)
+# mainloop()
+# # move into position
+# up()
+# forward(50)
+# left(90)
+# forward(50)
+# left(90)
+# down()
+# # draw the square
+# forward(100)
+# left(90)
+# forward(100)
+# left(90)
+# forward(100)
+# left(90)
+# forward(100)
+# mainloop()
+
+from turtle import *
+pencolor('orange')
+width(10)
+circle(180)
+
+
+
+
 
 
         
