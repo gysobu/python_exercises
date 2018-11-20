@@ -58,34 +58,23 @@
 #  8. Print a Triangle II
 # Given a number as the height, print a triangle as in "Print a Triangle" but with the given height.  
 
-height=int(input('Height?enter 0-9 '))
-num_spaces=height-1
-heightstr=str(height)
-spaces=' ' * num_spaces
-for i in range(height):
-   print(spaces + heightstr * (2*i+1))
-   num_spaces-=1
-   spaces=' ' * num_spaces
+# height=int(input('Height?enter 0-9 '))
+# num_spaces=height-1
+# heightstr=str(height)
+# spaces=' ' * num_spaces
+# for i in range(height):
+#    print(spaces + heightstr * (2*i+1))
+#    num_spaces-=1
+#    spaces=' ' * num_spaces
 
 
+# 9. Multiplication Table
+# Print the multiplication table for numbers from 1 up to 10. Example output:
+# result=0
+# for i in range(1,11):
+#     for j in range(1,11):
+#         result=0
+#         result+=i*j
+#         print("%d*%d=%d" %(i,j,result))
 
-
-
-
-
-   
-
-
-
-
-
-
-
-
-       
-     
-
-
-
-  
-
+#  Bonus: Print a Banner

@@ -33,7 +33,7 @@
 #   if (num>0):
 #    newlist.append(num)
 # print(newlist) 
- # 7. Multiply a list
+ # 7. Multiply a list 
 # l1=[2,3,5]
 # l2=[8]
 # l3=[]
@@ -76,28 +76,37 @@
 #   l3.append(sum)
 # print(l3) 
 
+#  Calculate the result of adding the two matrices. The number in each position in the resulting matrix should be the sum of the numbers in the corresponding addend matrices. Example: to add
 
+# 1 3 
+#  2 4
+# and
 
+# 5 2 
+# 1 0
+# results in
 
+# 6 5 
+# 3 4
 
+# l1 =[[1,5,1],[2,3,1]]
+# l2 =[[1,2,1],[2,3,5]]
+# size=len(l1)
 
+# print(size)
 
-
-
+# l3=[]
+# for i in range(size):
+#    l4=[]
+#    for j in range(len(l1[i])):
+#       result=0   
+#       result+=l1[i][j]+l2[i][j] 
+#       l4.append(result)
+#    l3.append(l4)
+# print(l3)    
   
 
 
 
 
-
-  
-   
-
-
-
-     
-
-
-
-        
  
