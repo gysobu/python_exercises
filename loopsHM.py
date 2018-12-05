@@ -66,8 +66,6 @@
 #    print(spaces + heightstr * (2*i+1))
 #    num_spaces-=1
 #    spaces=' ' * num_spaces
-
-
 # 9. Multiplication Table
 # Print the multiplication table for numbers from 1 up to 10. Example output:
 # result=0

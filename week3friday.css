@@ -1,0 +1,33 @@
+.box1 {
+    height:200px;
+    text-align: center;
+    
+}
+
+li{
+    list-style: none;
+}
+.page-footer{
+  position: absolute;
+  bottom: 0px;
+  height:100px;
+  text-align: center;
+
+}
+
+.border{
+    margin:20px;
+    margin-left:20px;  
+    height:150px;
+}
+
+nav > a{
+    text-decoration-line: underline;
+}
+.textdecor{
+    text-decoration-line: none;
+
+}
+lu li:after {
+    content: "|";
+}

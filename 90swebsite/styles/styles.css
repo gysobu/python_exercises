@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+    background-image: url(http://blog.hostbaby.com/wp-content/uploads/2014/03/SeeingSpots_1400x900.jpg)
+}
+
+.navbar{
+    padding-right: 50px
+}
+
+nav a{
+    text-decoration: none
+
+}
+
+/* .imgempire {
+    text-align: center
+    
+} */
+
+div {
+  text-align: center;
+  
+}
+
+a{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 50px
+}
