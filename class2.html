@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .mydiv{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var h1=document.createElement('h1');
+        h1.textContent="HelloWorld";
+        document.body.appendChild(h1)
+        var div =document.createElement('div')
+        document.body.appendChild(div)
+        var h2=document.createElement('h2');
+        h2.textContent="my h2 tag";
+        div.appendChild(h2)
+        div.setAttribute('class','mydiv')
+        var innerdiv=document.createElement('div')
+        var anchor =document.createElement('a')
+        anchor.setAttribute('href','https://www.yahoo.com/')
+        anchor.textContent="Yahoo"
+        innerdiv.appendChild(anchor)
+        div.appendChild(innerdiv)
+        </script>
+</body>
+</html>

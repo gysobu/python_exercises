@@ -1,0 +1,78 @@
+ 
+
+div{
+    position: relative;
+    height:100px ;
+}
+.display{
+    display:inline;
+    list-style: none
+}
+navbar{
+    position: absolute;
+    height:100px ;
+    width: 1125px; 
+}
+.navdis{
+    display: inline;
+}
+
+
+.l1font{
+    font-size:50px;
+    color: white;
+    text-align: center;
+    
+
+
+}
+ul{
+    position: absolute;
+    width: 1125px; 
+    height: 100px;
+    
+}
+.l2font{
+    font-size:40px;
+    color: white;
+   
+}
+.l3font{
+    color: white;
+    font-size: 25px;
+}
+
+.div2{
+    height:200px;
+    width:75%;
+    left:13%;
+    top:20px;   
+}
+
+.div3{
+    height:200px;
+    width:75%;
+    left:13%;
+    top:40px;   
+}
+
+.div4{
+    position: relative;
+    height:200px;
+    width:75%;
+    left:13%;
+    top:60px;
+}
+p{
+    font-size:20px;
+}
+
+.sdiv{
+    height:30px;
+    width:100%;
+    background-color:orange;
+   
+}
+
+
+

@@ -57,22 +57,63 @@
 // Write a function printSquare which is given a size and prints a square of that size using asterisks
 
     // function printSquare(size){
-    //     var stringArr=[]
+    //       var stringArr=[] 
+    //       var str="*"
     //     for(var i=1;i<=size;i++){
-    //            var str=""
-    //            var star="*"
-    //            for( var j=1;j<=size;j++){
-    //                 str.concat(star) 
-    //                 console.log(str)  
-    //            }
-    //            stringArr.push(str)   
-    //         } 
-    //         for(var i=0;i<stringArr.length;i++){
-    //             console.log(stringArr[i]);
-    //         }
-    // }
+    //          stringArr.push(str)
+    //     }
+    //     // console.log(stringArr)
+    //     var final=stringArr.join("")
+    //     // console.log(final)
 
-    // printSquare(5);
+    //     for(var i=1;i<=size;i++){
+    //        console.log(final)
+    //     }    
+    // }
+    //    printSquare(3)
+    //       printSquare(5);
+
+
+    
+    
+    // Print a box
+    // Write function printBox which is given a width and height and prints a hollow box of those given dimensions
+    function printSquare(width,height){
+        var stringArr=[]
+        var fArray=[] 
+        var str="*"
+        var empstr=" " 
+      for(var i=1;i<=height;i++){
+            if(i == 1||height) {
+                for(i=1;i<=width;i++){
+                  stringArr.push(str)
+                }
+                console.log(stringArr)
+                var ele=stringArr.join("")
+                console.log(ele)
+                fArray.push(ele)
+            }
+            else {
+                for(i=1;1<=width;i++){
+                    if(i == 1||width){
+                      stringArr.push(str)
+                    }
+                    else{
+                        stringArr.push(empstr)
+                    }
+                     var emele= stringArr.join("")
+                     console.log(emele);
+                     fArray.push(emele);
+                    }
+                 
+              }
+        
+         console.log(stringArr)
+         for(var i=1;i<=height;i++){
+          console.log(stringArr[i])
+      }    
+  }
+     printSquare(6,4)
 
     // function lvl1exercise1() {
     //     // Declare a variable without instantiating it and return it!
@@ -344,13 +385,13 @@
 //
 // Name the function "finalFunction"
 
-function finalFunction(num){
-    var array=[];
-    for (var i=1;i<=num;i++){
-        array.push("hello")
-    }
-return array
+// function finalFunction(num){
+//     var array=[];
+//     for (var i=1;i<=num;i++){
+//         array.push("hello")
+//     }
+// return array
 
-}
-var out=finalFunction(5)
-console.log(out)
+// }
+// var out=finalFunction(5)
+// console.log(out)
